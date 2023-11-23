@@ -1,0 +1,169 @@
+.wrap{
+  width: 1920px;
+  margin: 0 auto;
+}
+
+header{
+  z-index: 13;
+position: relative;
+width: 100%;
+height: 90px;
+border: 1px solid #000;
+}
+
+.header_center{
+
+}
+
+.header_center>h1{
+  position: absolute;
+  top: 18px;
+  left: 138px;
+  width: 208px;
+  height: 55px;
+  line-height: 55px;
+  z-index: 11;
+}
+
+h1>a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url(../img/logo.png);
+  border: 1px solid #000;
+  
+}
+
+.btn_nav{
+  display: none;
+}
+
+.btn_close{
+  display: none;
+}
+
+.btn_nav>button{
+}
+.menu_top{
+display: none;
+}
+
+nav{
+  width: 100%;
+  margin-top:-2px;
+  z-index: 10;
+  height: 100%;
+}
+
+#gnb{
+  text-align: center;
+  width: 100%;
+}
+
+#gnb>li{
+  display: inline-block;
+  width: 180px;
+  height:90px;
+  line-height: 90px;
+  margin-left: 30px;
+}
+
+#gnb>li>a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 1px solid #000;
+}
+
+.head_util{
+  position: absolute;
+  right: 144px;
+  top: 0;
+  z-index: 13;
+  width: 300px;
+  height: 90px;
+  text-align: center;
+}
+
+.head_util>div{
+  float: left;
+}
+
+.util{
+  width: 126px;
+  height: 90px;
+
+}
+
+.util>li{
+  float: left;
+  line-height: 90px;
+}
+
+.util>li>a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 90px;
+}
+
+.util>li:nth-child(2){
+  margin-left: 10px;
+}
+
+.search{
+  position: relative;
+  top: 32px;
+  left: 16px;
+  width: 25px;
+  height: 25px;
+  background: url(../img/search.jpg)no-repeat;
+}
+
+.search>a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.language{
+  position: absolute;
+  top: 31px;
+  right: 0;
+  width: 100px;
+}
+
+.header_lang{
+  width: 82px;
+  height: 26px;
+  text-indent: 0;
+}
+
+.header_lang>li{
+  width: 100%;
+  height: 100%;
+  line-height: 26px;
+}
+
+.header_lang li a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.header_lang ul>li{
+  width: 100%;
+  height: 100%;
+  line-height: 26px;
+  display: none;
+}
+
+.header_lang>li>a:after{
+  content: '';
+  margin-left: 5px;
+  background: url(../img/dropdown.jpg) no-repeat 0 5px;
+ 
+}
+
